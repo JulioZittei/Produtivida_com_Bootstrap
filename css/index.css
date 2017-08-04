@@ -1,0 +1,65 @@
+.logo {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.perfil {
+    width: 300px;
+    padding: 10px;
+}
+
+.perfil li:first-child {
+    margin-bottom: 2px;
+
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.header h1 {
+    margin:0;
+
+    font-size: 3em;
+}
+
+.search {
+    margin-top: 12px;
+}
+
+.os-data {  
+    margin-top: 30px;
+}
+
+.pagination-style .pagination{
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .perfil {
+        color: #fff;
+    }
+
+    .perfil a {
+        display: block;
+        padding: 5px 0;
+
+        color:#9d9d9d;
+    }
+
+    .perfil a:hover {
+        color: #fff;
+
+        text-decoration: none;
+    }
+
+    .pagination-style {
+        text-align: center;
+    }
+
+    .pagination-style .pagination {
+        margin-top: 20px;
+    }
+}
